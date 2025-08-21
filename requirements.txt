@@ -3,7 +3,7 @@ uvicorn[standard]==0.24.0
 
 # Database & ORM
 sqlalchemy==2.0.23
-asyncpg==0.29.0
+psycopg2-binary==2.9.9
 alembic==1.12.1
 
 # Supabase
@@ -21,4 +21,5 @@ python-multipart==0.0.6
 pydantic-settings==2.1.0
 
 # Development (optional)
+
 python-dotenv==1.0.0
